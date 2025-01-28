@@ -11,7 +11,7 @@ public class JpaMain {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
         EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
-        tx.begin();
+         tx.begin();
         //code
         try{
 //            Member findMember = em.find(Member.class, 1L);
